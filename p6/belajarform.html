@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar FORM</title>
+</head>
+
+<style>
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .bg-danger {
+        background: darkgreen;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .bg-danger {
+        background: rgb(122, 14, 237);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .bg-danger {
+        background: rgb(123, 10, 104);
+    }
+}
+</style>
+<body>
+    <div class="bg-danger">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam pariatur vero nam, dolore ea nihil voluptates ex omnis velit repudiandae voluptate incidunt unde nobis, possimus consequuntur laudantium quae! Iste, tenetur?
+        </div>
+    <form method="post">
+        <small>Nama Depan: <br></small>
+        <input type="text" name="namadepan" > <br>
+        <small>Nama Belakang: <br></small>
+        <input type="text" name="namabelakang"><br>
+        <small>Password</small> <br>
+        <input type="password" maxlength="6" name="password"><br>
+       <label for="">Jenis Kelamin</label> <br>
+       <input type="radio" value="male" name="gender">Laki-Laki
+       <br><br>
+       <input type="submit" value="kirim">
+       <input type="reset" value="batal">
+    </form>
+    <br><br>
+    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique praesentium atque aut dolorum quod obcaecati qui, tempore, quia tenetur dolore consectetur exercitationem, ipsa in deserunt. Quos magni tempora ipsam officia.</h1>
+   <form action="" method="post">
+ <fieldset style="float: left;">
+  <legend>Personalia:</legend>
+  <table>
+    <tr>
+        <th>No Daftar</th>
+        <th>:</th>
+        <th><input type="text" name="nodaftar"></th>
+    </tr>
+  </table>
+    <tr>
+        <th>Nama Lengkap</th>
+        <th>:</th>
+        <th><input type="text" name="nama"></th>
+    </tr>
+    <tr>
+        <th>Nama Lengkap</th>
+        <th>:</th>
+        <th><input type="text" name="nama"/></th>
+    </tr>
+  </table>
+ </fieldset>
+ <fieldset style="float: right;">
+  <legend>Pendaftaran:</legend>
+  <table>
+    <tr>
+        <th>Pilih Mendaftar Jenjang</th>
+        <th>:</th>
+        <th>
+            <select name="tingkatan">
+                <option value="">Pilih Tingkatan</option>
+                <option value="tk">TK</option>
+                <option value="sma">SMA</option>
+                <option value="smp">SMP</option>
+            </select>
+        </th>
+    </tr>
+     <tr>
+        <th>Nama Lengkap</th>
+        <th>:</th>
+        <th><input type="text" name="nama"></th>
+    </tr>
+     <tr>
+        <th>Pilih Mendaftar Jenjang</th>
+        <th>:</th>
+        <th>
+            <select name="tingkatan">
+                <option value="">Pilih Tingkatan</option>
+              <optgroup label="anak-anak">
+              <option value="tk">TK</option>
+                <option value="sma">SMA</option>
+                <option value="smp">SMP</option>    
+            </optgroup>
+              <optgroup label="dewasa">
+              <option value="tk">movie</option>
+                <option value="sma">yxz</option>
+                <option value="smp">duar</option>    
+            </optgroup>
+            </select>
+        </th>
+    </tr>
+  </table>
+   
+ </fieldset>
+</form>
+</body>
+</html>
